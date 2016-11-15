@@ -1,0 +1,76 @@
+html {
+	background-color: gray;
+}
+
+.intro {
+	height: 100%;
+	display: block;
+	text-align: center
+}
+
+.intro p,h2{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+}
+
+.card{
+	height: 100%;
+}
+
+.card-block {
+	height: 100%;
+	
+}
+
+.card-title {
+	height: 30%;
+	padding-top: 15%;
+}
+
+.card-text {
+	height: 70%;
+	padding-bottom: 30%;
+}
+
+#home {
+	height: inherit;
+	width: auto;
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+#topic {
+	color: white;
+}
+
+.carousel-inner{
+	background: black;
+
+}
+
+.fill {
+	opacity: 0.8;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-
+}
+
+ h2{
+	color: white;
+	font-size: 28pt; 
+	margin: auto;
+}
+
+.fill, p{
+	color: white;
+	font-size: 18pt; 
+	margin: auto;
+
+}
+
+footer {
+	margin: 0%;
+}

@@ -9,13 +9,16 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Full Slider - Start Bootstrap Template</title>
+    <title>LittleGame</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Full-Slider CSS -->
     <link href="css/full-slider.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,20 +42,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">LittleGame</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
+                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -61,16 +56,30 @@
     </nav>
 
     <!-- HomePage -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-xs-12">
-                <img src="images/home.gif" class="img-responsive" >
+    <div class="container-fluid" style="background-color: black; height:100%;">
+        <div class="row" style="height:100%;">
+            <div class="col-md-12 col-lg-12" style="height:100%;">
+                <img src="images/home.gif" class="img-responsive" id="home">
             </div>
         </div>
     </div>
+    <div class="container-fluid" style="background-color: black; height:95%;" >
+        <div class="row" style="height:100%;">
+            <div class="col-md-3 col-lg-3"></div>
+            <div class="col-md-6 col-lg-6 intro">
+                <div class="card">
+                    <div class="card-block" >
+                        <h2 class="card-title text-center">
+                            Just for Fun!!!
+                        </h2>
+                        <p class="card-text text-center">現在手機已經是一個現代人不可或缺的隨身物品，它的功能也越來越多元，而手機遊戲也從過去的貪食蛇、打磚塊慢慢變得越來越複雜，越來越具有規模，但是過去這些小遊戲並沒有受到開發者的嫌棄，反而增加了許多新穎的元素，更添遊戲者的喜愛。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-3"></div>
+        </div>
+    </div>
     
-    
-
     <!-- Full Page Image Background Carousel Header -->
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -81,26 +90,30 @@
         </ol>
 
         <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
+        <div class="carousel-inner" id="games">
+            <div style="height:5%"></div>
+            <div class="item active" >
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="fill" style="background-image:url('images/bbtan.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 1</h2>
+                    <h2>BBTAN</h2>
+                    <p>BBTAN結合反彈古早味，蹦出新滋味！</p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" >
                 <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill" style="background-image:url('images/bouncy_basketball.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2>Bouncy Basketball</h2>
+                    <p>一鍵操控所有隊員！超無厘頭又刺激的雙人籃球賽！</p>
                 </div>
             </div>
-            <div class="item">
+            <div class="item" >
                 <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill" style="background-image:url('images/steppy_pants.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Steppy Pants</h2>
+                    <p>喀喀碰碰跌跌撞撞，《Steppy Pants》原來走個路這麼難！</p>
                 </div>
             </div>
         </div>
@@ -116,7 +129,7 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container foot">
         <!-- Footer -->
         <footer>
             <div class="row">
